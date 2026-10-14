@@ -21,7 +21,7 @@ Onze auto is gebouwd op een wedstrijdchassis voor RC-auto's. De aandrijving en d
 
 ## Stroomlimiet: 3,5 A
 
-De brandstofcel kan maar een beperkte stroom leveren. In de VESC staat de maximale accustroom daarom op **3 A**, en het terugremmen (regeneratief remmen) staat uit. Zo beschermen we de brandstofcel en rijdt de auto zo efficiënt mogelijk.
+De brandstofcel kan maar een beperkte stroom leveren. In de VESC staat de maximale accustroom daarom op **3,5 A**, en het terugremmen (regeneratief remmen) staat uit. Zo beschermen we de brandstofcel en rijdt de auto zo efficiënt mogelijk.
 
 ## Zelf ontworpen onderdelen
 
