@@ -1,0 +1,27 @@
+# Instellingen van de website
+title: Vista Racing
+description: Het H2GP-team van VISTA college — een RC-auto die rijdt op waterstof.
+lang: nl
+
+# Adres van de site: https://rvanneer.github.io/Vista-racing/
+url: "https://rvanneer.github.io"
+baseurl: "/Vista-racing"
+
+# Menu bovenaan (volgorde = volgorde in het menu)
+menu:
+  - titel: Home
+    link: /
+  - titel: De auto
+    link: /auto/
+  - titel: Waterstof
+    link: /waterstof/
+  - titel: Nieuws
+    link: /nieuws/
+  - titel: Team
+    link: /team/
+
+permalink: /nieuws/:year/:month/:day/:title/
+timezone: Europe/Amsterdam
+
+exclude:
+  - README.md

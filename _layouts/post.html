@@ -1,0 +1,6 @@
+---
+layout: default
+---
+<p class="meta">{{ page.date | date: '%d-%m-%Y' }}{% if page.auteur %} · {{ page.auteur }}{% endif %}</p>
+{{ content }}
+<p><a href="{{ '/nieuws/' | relative_url }}">← Terug naar nieuws</a></p>
