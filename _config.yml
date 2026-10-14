@@ -5,7 +5,7 @@ lang: nl
 
 # Adres van de site: https://rvanneer.github.io/Vista-racing/
 url: "https://rvanneer.github.io"
-baseurl: "/Vista-racing"
+baseurl: "/Vista-Racing"
 
 # Menu bovenaan (volgorde = volgorde in het menu)
 menu:
