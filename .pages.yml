@@ -1,0 +1,115 @@
+# Instellingen voor Pages CMS (https://app.pagescms.org)
+# Bepaalt welke pagina's je in de editor kunt bewerken.
+
+media:
+  input: assets/img
+  output: /Vista-Racing/assets/img
+  categories: [image]
+  rename: safe
+
+content:
+  - name: home
+    label: Home
+    type: file
+    path: index.md
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: title
+        type: string
+        hidden: true
+      - name: hero
+        label: Bovenste blok
+        type: object
+        fields:
+          - name: label
+            label: Klein tekstje boven de titel
+            type: string
+          - name: titel
+            label: Grote titel
+            type: string
+          - name: tekst
+            label: Introductietekst
+            type: text
+      - name: body
+        label: Tekst
+        description: De kaarten en het laatste nieuws komen automatisch onder deze tekst.
+        type: rich-text
+
+  - name: auto
+    label: De auto
+    type: file
+    path: auto.md
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: permalink
+        type: string
+        hidden: true
+      - name: title
+        label: Titel
+        type: string
+        required: true
+      - name: body
+        label: Tekst
+        type: rich-text
+
+  - name: waterstof
+    label: Waterstof
+    type: file
+    path: waterstof.md
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: permalink
+        type: string
+        hidden: true
+      - name: title
+        label: Titel
+        type: string
+        required: true
+      - name: body
+        label: Tekst
+        type: rich-text
+
+  - name: team
+    label: Team
+    type: file
+    path: team.md
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: permalink
+        type: string
+        hidden: true
+      - name: title
+        label: Titel
+        type: string
+        required: true
+      - name: body
+        label: Tekst
+        type: rich-text
+
+  - name: nieuws
+    label: Nieuws
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      primary: title
+      fields: [title]
+    fields:
+      - name: layout
+        type: string
+        hidden: true
+      - name: title
+        label: Titel
+        type: string
+        required: true
+      - name: body
+        label: Tekst
+        type: rich-text
