@@ -5,6 +5,7 @@ permalink: /auto/
 ---
 
 Onze auto is gebouwd op een wedstrijdchassis voor RC-auto's. De aandrijving en de energievoorziening hebben we zelf samengesteld, zodat de auto zuinig rijdt op de stroom uit de brandstofcel.
+
 ![Onze twee H2GP-auto's, nummer 19 en 18, in de werkplaats](/Vista-Racing/assets/img/auto-teamfoto.jpg)
 
 ## Overzicht
@@ -26,4 +27,4 @@ De brandstofcel kan maar een beperkte stroom leveren. In de VESC staat de maxima
 De houder voor de accu's en de elektronica hebben we zelf getekend in Autodesk Fusion en 3D-geprint in glasvezelversterkt nylon (PA-GF). Bij een eerdere versie brak de wand achter de veer van de accu af. In de nieuwe versie hebben we de hoeken afgerond en de wanden verstevigd.
 
 > Foto's toevoegen? Zet de afbeelding in de map `assets/img/` en gebruik in de tekst:
-> `![Omschrijving](/Vista-racing/assets/img/bestandsnaam.jpg)`
+> `![Omschrijving](/Vista-Racing/assets/img/bestandsnaam.jpg)`
